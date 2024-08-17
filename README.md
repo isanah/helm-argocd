@@ -53,7 +53,6 @@ To run this project, you will need the following:
 
 Clone this repository to your local machine:
 
-```bash
 git clone https://github.com/isanah/helm-argocd.git
 cd helm-argocd
 
@@ -85,4 +84,4 @@ kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/st
 ### 6. Set up automated sync to trigger deployments on SCM changes.
 
 ### 7. Test the Deployment
-Make a change to your Helm charts and push it to the SCM repository. ArgoCD should automatically detect the change and deploy the updated microservices to the GKE cluster.
+Change your Helm charts and push them to the SCM repository. ArgoCD should automatically detect the change and deploy the updated microservices to the GKE cluster.
